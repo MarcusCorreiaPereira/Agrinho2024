@@ -1,0 +1,94 @@
+.header {
+
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+  }
+  
+  .header-top {
+  
+    display: flex;
+    background-color: rgb(18, 136, 18);
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .header-logo-container,
+  .header-placeholder-container {
+  
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .header-logo {
+  
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+  
+  }
+  
+  .header-website_name {
+  
+    font-family: "Nova Square", "Roboto", Arial;
+    font-weight: 700px;
+    font-size: 50px;
+    padding-top: 30px;
+    margin: 0;
+    color: rgb(240, 255, 240);
+  
+  }
+  
+  .header-bottom {
+  
+    background-color: rgb(9, 124, 9);
+    top: 80px;
+    left: 0;
+    right: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .header-bottom-button {
+  
+    height: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(9, 124, 9)
+  
+  }
+  
+  .header-bottom-button:hover {
+  
+    background-color: rgb(18, 136, 18);
+  
+  }
+  
+  .header-bottom-button:active {
+  
+    background-color: rgb(27, 148, 27);
+  
+  }
+  
+  .external {
+  
+    background-color: rgb(9, 116, 13);
+  
+  }
