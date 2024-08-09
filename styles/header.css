@@ -69,6 +69,7 @@
     padding-left: 24px;
     padding-right: 24px;
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
     background-color: rgb(9, 124, 9)
